@@ -3,8 +3,8 @@ let b=document.getElementById("but");
 let body=document.getElementById("b");
 
 
-  //b.onclick=change;
-  setInterval((
+  b.onclick=change;
+
   function change()
   {
 
@@ -19,5 +19,5 @@ let body=document.getElementById("b");
     body.style.background=c;
     console.log(i);
 
-  }),2000)
+  }
 
